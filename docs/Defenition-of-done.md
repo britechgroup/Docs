@@ -1,48 +1,29 @@
-# Iam tum nunc mihique satis
+# Definition of Done
 
-## Est haud fallitque
 
-Lorem markdownum non abiit frugilegas **Aeson** obstantes dea, sed est, est
-rostro Echionio reginam: ventre. Longa quaerit dumque et non Tirynthia parat,
-**si nobiscum** cygnis praetereunt sunto uva et correptus *adversae furta*. Ille
-bella lumina vos qui [intra](http://nymphae-et.io/corpora.php) pretioque canet
-insignis coluit si ausa patriaeque revertitur gramine. Tamen humilem lacertis
-factus terram secutae quoque fervidus vires in latices dixit. Quod Atlas latere
-secutae temptatos obvius susceptaque metum pharetraque Circes blanditus
-videntur; micant.
+When assigned a card or task (story hereafter), there are other requirements that need to be met
+beyond having a working code. In the first place, the code must adhere to best
+practices as well as coding and testing conventions guidelines of that project.
+What follows here are the requirements not captured in the code.
 
-> Carpis *genitam terrae saevo* vel aliter auditur, salutem! In et tanta
-> protinus; sic tibi deum spes oculos, sed neque hostisque. Elementaque Ceyx
-> decorum et presso mihi numina cum te vati tectae.
+## Documentation
 
-Regi cardine pedibus, velox mentes; certe **contigerat** asper. Colorque
-exstante Hymenaeus reperire movet aera interea tecta, umbras succedere, non. Te
-non, ope audet notat vocatum radiantis Castore post, ubi [vulnus
-viisque](http://www.hymenaeusdoctis.io/pompa) adulter.
+Where applicable, the developer must add the documentation for the added task
+to the relevant location. This is specially true in cases of new services, new
+features and changes to server configuration. Generally, the code should be self-documenting  
+and the comments minimal. Higher level explanations should be placed outside the code.
+Finally, the documentation should be targeted to new developers on the team and
+minimally technical.
 
-1. Adhuc aliis est via frondibus aut celeres
-2. Quam valens at Latinum nati datum Laurentes
-3. Patitur exponimur petit
-4. Pando ante hanc
-5. Incidit ego tibi lacrimare debes trahi ferro
+## Verification
 
-## Videri temperat narrata
+The story must be verified by the relevant stakeholders. This may mean getting a sign off
+from the product owner, design team or other engineers in cases of technical stories.
+All feedback within the scope of the story is the responsibility of the developer,
+as well as any other broken functionality in other places in the code. However, if
+another feature needs to be updated as a result of these new changes, it must be recorded
+as a separate story and may be worked on by any one else.
 
-Favilla tanto, si rumpit dolebat, erit dicebat seniles, et. Volentem licet
-**orbe sustulit et** causa montes, causam ait humi acie spectat. Litoream
-moderamine illa viret frigus illic *ira*, est
-[iuncis](http://corporesuccedere.org/), dum deduxit. Aegyptia discordia adsis
-pallentia tenuatus.
-
-- Ipsam resumit
-- Nova et Cumarum sine itque Bacchi aquarum
-- Ignifero mors Venerem sincerae grande
-
-Vulnere da pontus aeque vidi fraxinus. Non nemo **sub** fuga, cesserunt vipera;
-vobis tot relictae, proceres, Stygio fore! Defuit haec, tamen arcum virgo
-membraque siqua, officio et. Servabere arma: acta saepe exilio mellis iacet
-homines fateor, pars undis fontes.
-
-Adduntque ope insuper interdum Iunonius nulla simillimus Pontum, **facta**
-discrimine **dixit dentibus** discede dives, sibi memor interdum nil. Det tum
-equos adit telaque; barbaricoque inque fungi caput. Et corpore latet.
+For example, if your new component breaks the components downstream, you must fix it. However,
+if the design team decides that the downstream components must be updated to look differently,
+because they no longer carry the feel and look of the app, it is now a separate story.

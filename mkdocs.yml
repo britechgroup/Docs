@@ -1,5 +1,5 @@
 site_name: Britech
 nav:
     - Home: index.md
-    - Closing issues: Defenition-of-done.md
+    - Defenition of Done: Defenition-of-done.md
 theme: readthedocs

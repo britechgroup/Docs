@@ -1,6 +1,6 @@
 ## Commands
 
-### updating docs 
+### updating docs
  * `curl 'https://jaspervdj.be/lorem-markdownum/markdown.txt' > docs/about.md` - new page
 
 ### building static site
